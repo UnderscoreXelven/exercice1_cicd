@@ -1,0 +1,9 @@
+name: Fork
+on:
+    fork:
+jobs:
+    alert:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo
+              run: echo "Le fork a bien été créé"
