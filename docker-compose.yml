@@ -9,7 +9,7 @@ services:
       - HOST=db
       - PORT=3306
       - DB=exercice3_spring_student
-      - PASS=test
+      - PASS=root
     ports:
       - "8956:8956"
     restart: always
