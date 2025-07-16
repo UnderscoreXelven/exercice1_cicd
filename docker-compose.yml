@@ -7,9 +7,9 @@ services:
       - db
     environment:
       - HOST=db
-      - PORT=${PORT}
-      - DB=${DB}
-      - PASS=${PASS}
+      - PORT=3306
+      - DB=exercice3_spring_student
+      - PASS=test
     ports:
       - "8956:8956"
     restart: always
