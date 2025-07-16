@@ -6,7 +6,7 @@ services:
     depends_on:
       - db
     environment:
-      - HOST=${HOST}
+      - HOST=db
       - PORT=${PORT}
       - DB=${DB}
       - PASS=${PASS}
